@@ -18,4 +18,5 @@ return {
   {"mhartington/oceanic-next"},
   {"LunarVim/horizon.nvim"},
   {"miikanissi/modus-themes.nvim"},
+  {"rafamadriz/neon"},
 }

@@ -8,6 +8,9 @@ return {
       },
     presets = {
       command_pallete = true,
-    }
+    },
+    config = function ()
+      require("noice").setup({})
+    end
   }
 }

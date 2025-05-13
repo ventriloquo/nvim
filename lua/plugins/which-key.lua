@@ -12,6 +12,7 @@ return {
         { "<leader>e", "<cmd>e ~/.config/nvim<cr>", desc = "Configurações" },
         { "<leader>f", "<cmd>Telescope find_files<cr>", desc = "Encontrar arquivos" },
         { "<leader>b", "<cmd>Telescope buffers<cr>", desc = "Encontrar arquivos" },
+        { "<leader>G", "<cmd>Telescope live_grep<cr>", desc = "Live Grep" },
         { "<leader>g", "<cmd>LazyGit<cr>", desc = "LazyGit" },
         { "<leader>h", "<c-w>h", desc = "Janela à esquerda" },
         { "<leader>j", "<c-w>j", desc = "Janela abaixo" },

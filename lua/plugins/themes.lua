@@ -1,6 +1,8 @@
 return {
-  { "catppuccin/nvim", name = "catppuccin" },
-  { "Everblush/nvim", name = "everblush" },
+  {"catppuccin/nvim", name = "catppuccin"},
+  {"Everblush/nvim", name = "everblush"},
+  {"rose-pine/neovim", name = "rose-pine"},
+  {"projekt0n/github-nvim-theme", name = "github-theme"},
   {"marciomazza/vim-brogrammer-theme"},
   {"ellisonleao/gruvbox.nvim"},
   {"neanias/everforest-nvim"},
@@ -19,4 +21,5 @@ return {
   {"LunarVim/horizon.nvim"},
   {"miikanissi/modus-themes.nvim"},
   {"NTBBloodbath/doom-one.nvim"},
+  {"blazkowolf/gruber-darker.nvim"},
 }

@@ -10,6 +10,30 @@ return {
       },
 
       {
+          name = "Github Dark",
+          colorscheme = "github_dark",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Github Dark Default",
+          colorscheme = "github_dark_default",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Github Dark Dimmed",
+          colorscheme = "github_dark_dimmed",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Github Dark High Contrast",
+          colorscheme = "github_dark_high_contrast",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
           name = "Modus Vivendi",
           colorscheme = "modus_vivendi",
           before = [[ vim.opt.background = "dark" ]],
@@ -22,6 +46,12 @@ return {
       },
 
       {
+          name = "Gruber Darker",
+          colorscheme = "gruber-darker",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
           name = "Horizon",
           colorscheme = "horizon",
           before = [[ vim.opt.background = "dark" ]],
@@ -30,6 +60,12 @@ return {
       {
           name = "Miasma",
           colorscheme = "miasma",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Rosepine",
+          colorscheme = "rose-pine",
           before = [[ vim.opt.background = "dark" ]],
       },
 
@@ -210,6 +246,18 @@ return {
       {
           name = "Gruvbox Light",
           colorscheme = "gruvbox",
+          before = [[ vim.opt.background = "light" ]],
+      },
+
+      {
+          name = "Github Light High Contrast",
+          colorscheme = "github_light_high_contrast",
+          before = [[ vim.opt.background = "light" ]],
+      },
+
+      {
+          name = "Github Light",
+          colorscheme = "github_light",
           before = [[ vim.opt.background = "light" ]],
       },
 

@@ -31,7 +31,7 @@ return {
     config = function ()
       require("mason-lspconfig").setup({
         ensure_installed = {
-          "lua_ls", "cssls", "html", "deno",
+          "lua_ls", "cssls", "html", "denols",
         }
       })
     end
@@ -43,7 +43,7 @@ return {
       require("lspconfig").clangd.setup({capabilities = Capabilities,})
       require("lspconfig").gopls.setup({capabilities = Capabilities,})
       require("lspconfig").lua_ls.setup({capabilities = Capabilities,})
-      require("lspconfig").deno.setup({capabilities = Capabilities,})
+      require("lspconfig").denols.setup({capabilities = Capabilities,})
       require("lspconfig").cssls.setup({capabilities = Capabilities,})
       require("lspconfig").html.setup({capabilities = Capabilities,})
     end

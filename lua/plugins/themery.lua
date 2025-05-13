@@ -47,8 +47,8 @@ return {
 
       {
           name = "Doom",
-          colorscheme = "neon",
-          before = [[ vim.opt.background = "dark" ]], [[ vim.g.neon_style = "doom" ]],
+          colorscheme = "doom-one",
+          before = [[ vim.opt.background = "dark" ]],
       },
 
       {

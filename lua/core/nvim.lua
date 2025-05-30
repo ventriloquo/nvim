@@ -24,7 +24,7 @@ v.o.scrolloff     =   8
 -- strings --
 v.o.signcolumn    =   "number"
 v.o.clipboard     =   "unnamed,unnamedplus"
---v.o.colorcolumn   =   "80"
+v.o.colorcolumn   =   "80"
 --v.o.listchars     =   "tab:>-,trail:~,extends:>,precedes:<,space:·"
 v.o.listchars     =   "tab:>-,trail:~,extends:>,precedes:<"
 v.g.mapleader = " "

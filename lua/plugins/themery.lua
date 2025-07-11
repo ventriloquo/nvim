@@ -10,6 +10,30 @@ return {
       },
 
       {
+          name = "Srcery",
+          colorscheme = "srcery",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Brogrammer",
+          colorscheme = "brogrammer",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Gruber Darker",
+          colorscheme = "gruber-darker",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Modus Vivendi",
+          colorscheme = "modus_vivendi",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
           name = "Github Dark",
           colorscheme = "github_dark",
           before = [[ vim.opt.background = "dark" ]],
@@ -30,24 +54,6 @@ return {
       {
           name = "Github Dark High Contrast",
           colorscheme = "github_dark_high_contrast",
-          before = [[ vim.opt.background = "dark" ]],
-      },
-
-      {
-          name = "Modus Vivendi",
-          colorscheme = "modus_vivendi",
-          before = [[ vim.opt.background = "dark" ]],
-      },
-
-      {
-          name = "Brogrammer",
-          colorscheme = "brogrammer",
-          before = [[ vim.opt.background = "dark" ]],
-      },
-
-      {
-          name = "Gruber Darker",
-          colorscheme = "gruber-darker",
           before = [[ vim.opt.background = "dark" ]],
       },
 

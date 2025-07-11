@@ -31,7 +31,6 @@ return {
         { "<leader>z", "<cmd>ZenMode<cr>", desc = "Modo Zen" },
         { "<leader>v", "<cmd>vs<cr>", desc = "Split vertical" },
         { "<leader>V", "<cmd>sp<cr>", desc = "Split horizontal" },
-        { "<leader>w", "<cmd>lua require('kiwi').open_wiki_index()<cr>", desc = "Wiki" },
         { "<leader>/", "<cmd>noh<cr>", desc = "Desabilitar highlight de pesquisa" },
       })
   end

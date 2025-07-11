@@ -11,7 +11,7 @@ I've configured it to be a personal IDE, and one that I could modify easily, as
 such, even if you are a noob, it's possible to use and change this config at
 will whithout much of a headache.
 
-Some of the things that you will problably need pre-instaled on your computer
+Some of the things that you will probably need pre-instaled on your computer
 are:
 
 - fzf
@@ -25,4 +25,4 @@ The package manager used here is
 
 Here is a screenshot of it:
 
-![screenshot](.src/scr.webp)
+![screenshot](./src/scr.webp)

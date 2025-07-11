@@ -22,4 +22,5 @@ return {
   {"miikanissi/modus-themes.nvim"},
   {"NTBBloodbath/doom-one.nvim"},
   {"blazkowolf/gruber-darker.nvim"},
+  {"srcery-colors/srcery-vim"},
 }

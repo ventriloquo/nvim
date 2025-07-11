@@ -1,3 +1,0 @@
-return {
-    'serenevoid/kiwi.nvim',
-}

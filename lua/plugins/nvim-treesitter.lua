@@ -5,7 +5,9 @@ return {
       ensure_installed = {
         "make", "bash", "c", "hare", "lua",
         "html", "javascript", "css", "yaml",
-        "asm", "go", "markdown", "vento",
+        "asm", "go", "markdown", "liquid",
+        "haskell", "rust", "zig", "toml",
+        "yaml", "ini"
       },
       highlight = { enable = true }
     }

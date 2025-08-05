@@ -23,6 +23,3 @@ are:
 The package manager used here is
 [Lazy.nvim](https://github.com/folke/lazy.nvim).
 
-Here is a screenshot of it:
-
-![screenshot](./src/scr.webp)

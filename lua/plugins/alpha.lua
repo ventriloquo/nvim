@@ -1,6 +1,10 @@
 return {
   "goolord/alpha-nvim",
   config = function()
-    require("alpha").setup(require'alpha.themes.theta'.config)
+    local theta = require("alpha.themes.theta")
+    theta.file_icons.enabled = false
+    require("alpha").setup(
+      theta.config
+    )
   end
 }

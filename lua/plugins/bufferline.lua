@@ -4,6 +4,7 @@ return {
   config = function ()
     require("bufferline").setup({
       options = {
+        separator_style = "slant",
         numbers = "none",
         show_buffer_icons = false,
         show_buffer_close_icons = false,

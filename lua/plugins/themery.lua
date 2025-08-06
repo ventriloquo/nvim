@@ -4,20 +4,26 @@ return {
     require("themery").setup({
     themes = {
       {
-          name = "Gruvbox Dark",
-          colorscheme = "gruvbox",
-          before = [[ vim.opt.background = "dark" ]],
-      },
-
-      {
           name = "Srcery",
           colorscheme = "srcery",
           before = [[ vim.opt.background = "dark" ]],
       },
 
       {
-          name = "Brogrammer",
-          colorscheme = "brogrammer",
+          name = "Gruvbox Dark",
+          colorscheme = "gruvbox",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Habamax",
+          colorscheme = "habamax",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Vague",
+          colorscheme = "vague",
           before = [[ vim.opt.background = "dark" ]],
       },
 
@@ -28,8 +34,20 @@ return {
       },
 
       {
+          name = "Brogrammer",
+          colorscheme = "brogrammer",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
           name = "Modus Vivendi",
           colorscheme = "modus_vivendi",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Evangelion",
+          colorscheme = "evangelion",
           before = [[ vim.opt.background = "dark" ]],
       },
 
@@ -84,6 +102,12 @@ return {
       {
           name = "Everblush",
           colorscheme = "everblush",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Bamboo",
+          colorscheme = "bamboo",
           before = [[ vim.opt.background = "dark" ]],
       },
 

@@ -3,7 +3,6 @@ return {
   {"Everblush/nvim", name = "everblush"},
   {"rose-pine/neovim", name = "rose-pine"},
   {"projekt0n/github-nvim-theme", name = "github-theme"},
-  { "ntk148v/habamax.nvim", dependencies={ "rktjmp/lush.nvim" } },
   {"marciomazza/vim-brogrammer-theme"},
   {"ellisonleao/gruvbox.nvim"},
   {"neanias/everforest-nvim"},
@@ -24,7 +23,4 @@ return {
   {"NTBBloodbath/doom-one.nvim"},
   {"blazkowolf/gruber-darker.nvim"},
   {"srcery-colors/srcery-vim"},
-  {"vague2k/vague.nvim"},
-  {"ribru17/bamboo.nvim"},
-  {"xero/evangelion.nvim"},
 }

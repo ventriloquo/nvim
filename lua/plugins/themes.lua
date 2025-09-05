@@ -17,6 +17,7 @@ return {
   {"rmehri01/onenord.nvim"},
   {"tiagovla/tokyodark.nvim"},
   {"loctvl842/monokai-pro.nvim"},
+  {"sainnhe/sonokai"},
   {"xero/miasma.nvim"},
   {"mhartington/oceanic-next"},
   {"LunarVim/horizon.nvim"},

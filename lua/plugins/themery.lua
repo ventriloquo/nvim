@@ -172,6 +172,12 @@ return {
       },
 
       {
+          name = "Sonokai",
+          colorscheme = "sonokai",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
           name = "Monokai Pro",
           colorscheme = "monokai-pro-default",
           before = [[ vim.opt.background = "dark" ]],

@@ -88,6 +88,24 @@ return {
       },
 
       {
+          name = "Evergarden Spring",
+          colorscheme = "evergarden-spring",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Evergarden Fall",
+          colorscheme = "evergarden-fall",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+          name = "Evergarden Winter",
+          colorscheme = "evergarden-winter",
+          before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
           name = "Doom",
           colorscheme = "doom-one",
           before = [[ vim.opt.background = "dark" ]],
@@ -276,6 +294,12 @@ return {
       {
           name = "Everforest Light",
           colorscheme = "everforest",
+          before = [[ vim.opt.background = "light" ]],
+      },
+
+      {
+          name = "Evergarden Summer",
+          colorscheme = "evergarden-summer",
           before = [[ vim.opt.background = "light" ]],
       },
 

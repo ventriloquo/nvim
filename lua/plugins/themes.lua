@@ -3,6 +3,7 @@ return {
   {"Everblush/nvim", name = "everblush"},
   {"rose-pine/neovim", name = "rose-pine"},
   {"projekt0n/github-nvim-theme", name = "github-theme"},
+  {'everviolet/nvim', name = 'evergarden'},
   {"marciomazza/vim-brogrammer-theme"},
   {"ellisonleao/gruvbox.nvim"},
   {"neanias/everforest-nvim"},

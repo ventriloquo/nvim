@@ -1,5 +1,6 @@
 return {
   "sphamba/smear-cursor.nvim",
+  loading = "Lazy",
   config = function ()
     require("smear_cursor").setup({
       stiffness = 0.8,

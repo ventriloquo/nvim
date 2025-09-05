@@ -11,6 +11,7 @@ return {
       "m00qek/baleia.nvim", tag = "v1.3.0"
     },
   },
+  loading = "Lazy",
   config = function()
     ---@type CompileModeOpts
     vim.g.compile_mode = {

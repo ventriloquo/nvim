@@ -1,5 +1,6 @@
 return {
   "neovim/nvim-lspconfig",
+  loading = "Lazy",
   dependencies = {
     "saghen/blink.cmp",
     "VonHeikemen/lsp-zero.nvim",

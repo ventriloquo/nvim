@@ -7,7 +7,6 @@ return {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
   },
- -- example calling setup directly for each LSP
   config = function()
     require("mason").setup({})
     require("mason-lspconfig").setup({
@@ -17,9 +16,9 @@ return {
     })
     require("lsp-zero")
     local capabilities = require("blink.cmp").get_lsp_capabilities()
-    local lspconfig = require("lspconfig")
+    local lsp = vim.lsp
 
-    lspconfig["lua_ls"].setup({ capabilities = capabilities })
-    lspconfig["clangd"].setup({ capabilities = capabilities })
+    lsp.config("lua_ls", { capabilities = capabilities })
+    lsp.config("clangd", { capabilities = capabilities })
   end
 }

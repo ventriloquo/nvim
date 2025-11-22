@@ -22,6 +22,12 @@ return {
       },
 
       {
+        name = "Melange",
+        colorscheme = "melange",
+        before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
         name = "Chocolatier",
         colorscheme = "chocolatier",
         before = [[ vim.opt.background = "dark" ]],
@@ -66,6 +72,12 @@ return {
       {
         name = "Github Dark High Contrast",
         colorscheme = "github_dark_high_contrast",
+        before = [[ vim.opt.background = "dark" ]],
+      },
+
+      {
+        name = "Flexoki Dark",
+        colorscheme = "flexoki-dark",
         before = [[ vim.opt.background = "dark" ]],
       },
 
@@ -306,6 +318,12 @@ return {
       {
         name = "Github Light",
         colorscheme = "github_light",
+        before = [[ vim.opt.background = "light" ]],
+      },
+
+      {
+        name = "Flexoki Light",
+        colorscheme = "flexoki-light",
         before = [[ vim.opt.background = "light" ]],
       },
 

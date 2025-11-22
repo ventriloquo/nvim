@@ -25,6 +25,11 @@ return {
   },
 
   {
+    'kepano/flexoki-neovim',
+    name = 'flexoki'
+  },
+
+  {
     "marciomazza/vim-brogrammer-theme"
   },
 
@@ -114,5 +119,9 @@ return {
 
   {
     "qaptoR-nvim/chocolatier.nvim"
+  },
+
+  {
+    "savq/melange-nvim"
   },
 }
